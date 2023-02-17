@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 from revChatGPT.Official import AsyncChatbot
 from dotenv import load_dotenv
 import os

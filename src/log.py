@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import os
 import logging
 import logging.handlers
@@ -7,7 +10,7 @@ class CustomFormatter(logging.Formatter):
 
     LEVEL_COLORS = [
         (logging.DEBUG, '\x1b[40;1m'),
-        (logging.INFO, '\x1b[34;1m'),
+        (logging.INFO, '\x1b[32m'),
         (logging.WARNING, '\x1b[33;1m'),
         (logging.ERROR, '\x1b[31m'),
         (logging.CRITICAL, '\x1b[41m'),

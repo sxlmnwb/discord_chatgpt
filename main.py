@@ -1,6 +1,12 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 from src import bot
 from dotenv import load_dotenv
 import sys
+import os
+
+os.system('./src/banner')
 
 def check_verion() -> None:
     import pkg_resources
