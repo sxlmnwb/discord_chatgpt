@@ -4,7 +4,9 @@
 
 2. Inspect whether the bot works well `docker logs -f chatgpt-discord-bot`
 
-3. For close logs `CTRL+C`
+3. If want to start|stop|restart `docker compose <value> chatgpt-discord-bot`
+
+4. For close logs `CTRL+C`
 
    ### Stop the bot:
 
