@@ -1,6 +1,6 @@
 ## Run the bot with Docker
 
-1. Build the Docker image & Run the Docker container `docker compose up -d`
+1. Build the Docker image & run the Docker container with `docker compose up -d`
 
 2. Inspect whether the bot works well `docker logs -f chatgpt-discord-bot`
 
